@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+
+  /* background-color: #ffffff;
+  background-image: linear-gradient(160deg, #ffffff 0%, #dcedff 100%); */
+
+  background-image: radial-gradient(
+    circle 879px at 10.4% 22.3%,
+    rgba(255, 235, 238, 1) 0%,
+    rgba(186, 190, 245, 1) 93.6%
+  );
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .home {
+    width: 100%;
+  }
+}
