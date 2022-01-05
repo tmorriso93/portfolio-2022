@@ -1,23 +1,16 @@
 export const WorkData = [
   {
-    company: "Google",
+    company: "Freelance Web Developer",
     designation: "Frontend Developer",
-    dateJoining: "01-05-2018",
+    dateJoining: "05-2020",
     dateEnd: "present",
-    work: "WHAT I DID: In order to determine whether to withhold taxes for the payments foreign payee. This form contains information such as payee name, address, and tax identification number.",
+    work: "Built and styled mobile friendly websites, HTML email templates and landing pages. | HTML | CSS | SASS | JAVASCRIPT | BOOTSTRAP | REACT | JSX",
   },
   {
-    company: "Google",
+    company: "Sutton Integrated Solutions",
     designation: "Frontend Developer",
-    dateJoining: "01-05-2018",
-    dateEnd: "present",
-    work: "WHAT I DID: In order to determine whether to withhold taxes for the payments foreign payee. This form contains information such as payee name, address, and tax identification number.",
-  },
-  {
-    company: "Google",
-    designation: "Frontend Developer",
-    dateJoining: "01-05-2018",
-    dateEnd: "present",
-    work: "JOB DUTIES: In order to determine whether to withhold taxes for the payments foreign payee. This form contains information such as payee name, address, and tax identification number.",
+    dateJoining: "10-2019",
+    dateEnd: "03-2020",
+    work: "Collaborated with the graphic design team, converting mockups into responsive web pages and site components. | HTML | CSS | SASS | JAVASCRIPT | DOM",
   },
 ];

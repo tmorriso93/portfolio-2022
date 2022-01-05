@@ -8,7 +8,12 @@ function projectCard({ project }) {
         <label className="project-title">{project.title}</label>
         <div className="project-links">
           {project.demo && (
-            <a className="project-link" href="{project.demo}">
+            <a
+              className="project-link"
+              href={project.demo}
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="link-button">
                 <img
                   src="https://img.icons8.com/material-outlined/20/000000/globe--v2.png"
@@ -19,7 +24,12 @@ function projectCard({ project }) {
             </a>
           )}
           {project.github && (
-            <a className="project-link" href="{project.github}">
+            <a
+              className="project-link"
+              href={project.github}
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="link-button">
                 <img
                   src="https://img.icons8.com/material-outlined/20/000000/github.png"
@@ -30,7 +40,7 @@ function projectCard({ project }) {
             </a>
           )}
         </div>
-        <p>{project.about}</p>
+        <p className="project-about">{project.about}</p>
         <div className="project-tags">
           {project.tags.map((tag) => {
             return <label className="tag">{tag}</label>;
