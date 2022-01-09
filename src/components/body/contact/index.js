@@ -18,7 +18,7 @@ export default function Contact() {
           <div className="download">
             <a
               download
-              href={require("../../../assets/tevin_morrison_resume01.pdf")}
+              href={require("../../../assets/tevin_morrison_resume00.pdf")}
             >
               <i class="fas fa-download download-icon"> - Download Resume</i>
             </a>
